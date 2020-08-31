@@ -1,0 +1,51 @@
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+        h1 {
+            /* Restaurant name */
+            padding-top: 10px;
+            font-size: 5vw; /* 1vw = 1% of viewport width */
+        }
+        p {
+            /* Kosher cert */
+            font-size: 0.6em;
+            margin-top: 12px;
+            img {
+                /* Star-K */
+                height: 20px;
+            }
+        }
+    }
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+        span {
+            /* Collapsed nav menu glyph */
+            font-size: 1em;
+            margin-right: 5px;
+        }
+    }
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    /* End Header */
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+    }
+}

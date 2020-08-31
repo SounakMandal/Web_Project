@@ -1,0 +1,9 @@
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+        background: url("../images/jumbotron_768.jpg") no-repeat;
+        height: 432px;
+    }
+    /* End Home Page */
+}
