@@ -1,0 +1,28 @@
+#nav-list {
+    margin-top: 10px;
+    a {
+        color: #951c49;
+        text-align: center;
+        &:hover {
+            background: #e7e7e7;
+        }
+        span {
+            font-size: 1.8em;
+        }
+    }
+}
+
+#phone {
+    margin-top: 5px;
+    a {
+        /* Phone number */
+        text-align: right;
+        padding-bottom: 0;
+    }
+    div {
+        /* We Deliver */
+        color: #557c3e;
+        text-align: right;
+        padding-right: 15px;
+    }
+}
